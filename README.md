@@ -2,7 +2,7 @@
 __A data analysis project on e-commerce sales using Python and Jupyter Notebook. Includes exploratory data analysis (EDA), sales and profit insights, customer segmentation, and visualizations for data-driven decision-making.__
 Steps Followed in the Analysis
 
-**Project Overview**
+# **Project Overview**
 
 This project performs a comprehensive exploratory data analysis (EDA) on an E-commerce sales dataset using Python and Jupyter Notebook. The goal is to uncover business insights around sales performance, profitability, customer segments, and product trends.
 

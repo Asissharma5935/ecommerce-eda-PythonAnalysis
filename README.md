@@ -4,17 +4,19 @@ Steps Followed in the Analysis
 
 # **Project Overview**
 
-This project performs a comprehensive exploratory data analysis (EDA) on an E-commerce sales dataset using Python and Jupyter Notebook. The goal is to uncover business insights around sales performance, profitability, customer segments, and product trends.
+#### This project focuses on analyzing sales and profitability patterns in an E-commerce dataset to generate actionable business insights. Using Python and Jupyter Notebook, the analysis covers sales performance across months, categories, sub-categories, and customer segments.
 
-The analysis helps in answering key questions such as:
+#### The purpose of this project is to help businesses understand:
 
-Which categories and sub-categories drive the most sales and profit?
+#### Which time periods contribute most to revenue.
 
-1.Do high sales always mean high profits?
+#### Which product categories and sub-categories drive sales and profitability.
 
-2.Which customer segments are most valuable?
+#### How customer segments differ in terms of sales contribution and profit margins.
 
-3.Are there seasonal trends in sales and profit?
+#### Whether high sales always translate into higher profits, or if certain areas are loss-making despite strong revenue.
+
+By combining data cleaning, visualization, and exploratory analysis, the project provides a clear view of both strengths and challenges in the store’s performance, enabling data-driven decision-making.
 
 **Objectives**
 

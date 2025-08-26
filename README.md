@@ -26,7 +26,7 @@ Convert dates into usable formats (e.g., monthly sales tracking).
 
 ->Sales Analysis
 
-#Business Questions / Objectives(KPIs)
+# Business Questions / Objectives(KPIs)
 
 The project is designed to answer the following business questions:
 

@@ -4,19 +4,19 @@ Steps Followed in the Analysis
 
 # **Project Overview**
 
-#### This project focuses on analyzing sales and profitability patterns in an E-commerce dataset to generate actionable business insights. Using Python and Jupyter Notebook, the analysis covers sales performance across months, categories, sub-categories, and customer segments.
+##### This project focuses on analyzing sales and profitability patterns in an E-commerce dataset to generate actionable business insights. Using Python and Jupyter Notebook, the analysis covers sales performance across months, categories, sub-categories, and customer segments.
 
-#### The purpose of this project is to help businesses understand:
+##### The purpose of this project is to help businesses understand:
 
-#### Which time periods contribute most to revenue.
+##### Which time periods contribute most to revenue.
 
-#### Which product categories and sub-categories drive sales and profitability.
+##### Which product categories and sub-categories drive sales and profitability.
 
-#### How customer segments differ in terms of sales contribution and profit margins.
+##### How customer segments differ in terms of sales contribution and profit margins.
 
-#### Whether high sales always translate into higher profits, or if certain areas are loss-making despite strong revenue.
+##### Whether high sales always translate into higher profits, or if certain areas are loss-making despite strong revenue.
 
-By combining data cleaning, visualization, and exploratory analysis, the project provides a clear view of both strengths and challenges in the store’s performance, enabling data-driven decision-making.
+##### By combining data cleaning, visualization, and exploratory analysis, the project provides a clear view of both strengths and challenges in the store’s performance, enabling data-driven decision-making.
 
 **Objectives**
 

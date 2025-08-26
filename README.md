@@ -26,29 +26,23 @@ Convert dates into usable formats (e.g., monthly sales tracking).
 
 ->Sales Analysis
 
-Analyze monthly sales performance.
+#Business Questions / Objectives(KPIs)
 
-Evaluate sales distribution by category and sub-category.
+The project is designed to answer the following business questions:
 
-Identify top-performing products and weak performers.
+Calculate the monthly sales of the store and identify which month had the highest sales and which month had the lowest sales.
 
-->Profitability Analysis
+Analyze sales based on product categories and determine which category has the lowest sales and which category has the highest sales.
 
-Compare sales vs profit across time, categories, and sub-categories.
+Perform sales analysis based on sub-categories to identify top and bottom performers.
 
-Find loss-making items that negatively affect overall margins.
+Analyze the monthly profit from sales and determine which month had the highest profit.
 
--Customer Segment Insights
+Analyze the profit by category and sub-category to identify the most and least profitable areas.
 
-Explore sales and profit by Consumer, Corporate, and Home Office segments.
+Analyze the sales and profit by customer segment (Consumer, Corporate, Home Office).
 
-Evaluate contribution and profitability of each segment.
-
--Visualization & Storytelling
-
-Use interactive charts for clear storytelling.
-
-Provide actionable insights for business strategy.
+Calculate and analyze the sales-to-profit ratio to check if higher sales always mean higher profits.
 
 
 **Detailed Steps Followed**

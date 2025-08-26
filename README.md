@@ -18,13 +18,13 @@ Which categories and sub-categories drive the most sales and profit?
 
 **Objectives**
 
--Data Cleaning & Preparation
+->Data Cleaning & Preparation
 
 Load and preprocess the dataset to make it ready for analysis.
 
 Convert dates into usable formats (e.g., monthly sales tracking).
 
--Sales Analysis
+->Sales Analysis
 
 Analyze monthly sales performance.
 
@@ -32,7 +32,7 @@ Evaluate sales distribution by category and sub-category.
 
 Identify top-performing products and weak performers.
 
--Profitability Analysis
+->Profitability Analysis
 
 Compare sales vs profit across time, categories, and sub-categories.
 
@@ -51,7 +51,7 @@ Use interactive charts for clear storytelling.
 Provide actionable insights for business strategy.
 
 
-Detailed Steps Followed
+**Detailed Steps Followed**
 1. Data Import & Setup
 
 Imported essential Python libraries: pandas, numpy, matplotlib, seaborn, and plotly.
@@ -109,7 +109,7 @@ Used Plotly Express for interactive charts: line plots, bar charts, pie charts.
 Enhanced analysis with percentage and ratio visuals.
 
 
-Key Findings & Insights
+**Key Findings & Insights**
 
 Monthly Trends
 
@@ -143,7 +143,7 @@ High sales ≠ high profit. Some products sell in high volume but weaken margins
 
 ✅ Conclusion: Businesses should focus on high-margin products (Technology, Copiers) while addressing loss-making categories (Furniture – especially Tables). Balancing sales volume with profitability can improve overall business health.
 
-📊 Tools & Libraries Used
+**📊 Tools & Libraries Used**
 
 Python
 

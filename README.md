@@ -18,15 +18,6 @@ Steps Followed in the Analysis
 
 ##### By combining data cleaning, visualization, and exploratory analysis, the project provides a clear view of both strengths and challenges in the store’s performance, enabling data-driven decision-making.
 
-**Objectives**
-
-->Data Cleaning & Preparation
-
-Load and preprocess the dataset to make it ready for analysis.
-
-Convert dates into usable formats (e.g., monthly sales tracking).
-
-->Sales Analysis
 
 # Business Questions / Objectives(KPIs)
 
@@ -47,7 +38,7 @@ Analyze the sales and profit by customer segment (Consumer, Corporate, Home Offi
 Calculate and analyze the sales-to-profit ratio to check if higher sales always mean higher profits.
 
 
-**Detailed Steps Followed**
+# **Detailed Steps Followed**
 1. Data Import & Setup
 
 Imported essential Python libraries: pandas, numpy, matplotlib, seaborn, and plotly.
@@ -105,7 +96,7 @@ Used Plotly Express for interactive charts: line plots, bar charts, pie charts.
 Enhanced analysis with percentage and ratio visuals.
 
 
-**Key Findings & Insights**
+# **Key Findings & Insights**
 
 Monthly Trends
 
@@ -139,7 +130,7 @@ High sales ≠ high profit. Some products sell in high volume but weaken margins
 
 ✅ Conclusion: Businesses should focus on high-margin products (Technology, Copiers) while addressing loss-making categories (Furniture – especially Tables). Balancing sales volume with profitability can improve overall business health.
 
-**📊 Tools & Libraries Used**
+# **📊 Tools & Libraries Used**
 
 Python
 

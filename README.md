@@ -1,8 +1,8 @@
 # ecommerce-eda-PythonAnalysis
-A data analysis project on e-commerce sales using Python and Jupyter Notebook. Includes exploratory data analysis (EDA), sales and profit insights, customer segmentation, and visualizations for data-driven decision-making.
+__A data analysis project on e-commerce sales using Python and Jupyter Notebook. Includes exploratory data analysis (EDA), sales and profit insights, customer segmentation, and visualizations for data-driven decision-making.__
 Steps Followed in the Analysis
 
-Project Overview
+**Project Overview**
 
 This project performs a comprehensive exploratory data analysis (EDA) on an E-commerce sales dataset using Python and Jupyter Notebook. The goal is to uncover business insights around sales performance, profitability, customer segments, and product trends.
 
@@ -10,21 +10,21 @@ The analysis helps in answering key questions such as:
 
 Which categories and sub-categories drive the most sales and profit?
 
-Do high sales always mean high profits?
+1.Do high sales always mean high profits?
 
-Which customer segments are most valuable?
+2.Which customer segments are most valuable?
 
-Are there seasonal trends in sales and profit?
+3.Are there seasonal trends in sales and profit?
 
-Objectives
+**Objectives**
 
-Data Cleaning & Preparation
+-Data Cleaning & Preparation
 
 Load and preprocess the dataset to make it ready for analysis.
 
 Convert dates into usable formats (e.g., monthly sales tracking).
 
-Sales Analysis
+-Sales Analysis
 
 Analyze monthly sales performance.
 
@@ -32,19 +32,19 @@ Evaluate sales distribution by category and sub-category.
 
 Identify top-performing products and weak performers.
 
-Profitability Analysis
+-Profitability Analysis
 
 Compare sales vs profit across time, categories, and sub-categories.
 
 Find loss-making items that negatively affect overall margins.
 
-Customer Segment Insights
+-Customer Segment Insights
 
 Explore sales and profit by Consumer, Corporate, and Home Office segments.
 
 Evaluate contribution and profitability of each segment.
 
-Visualization & Storytelling
+-Visualization & Storytelling
 
 Use interactive charts for clear storytelling.
 

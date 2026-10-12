@@ -14,7 +14,8 @@ An exploratory data analysis project using Python and Jupyter Notebook to examin
 
 ```text
 .
-├── Ecommerce.ipynb
+├── notebooks/
+│   └── Ecommerce.ipynb
 ├── data/
 │   └── Sample-Superstore.csv
 └── README.md
@@ -52,7 +53,7 @@ These are qualitative findings recorded in the project notes; no exact metric va
 ## How to Run
 
 1. Clone or download this repository.
-2. Open `Ecommerce.ipynb` in Jupyter Notebook, JupyterLab, or VS Code with the Jupyter extension.
+2. Open `notebooks/Ecommerce.ipynb` in Jupyter Notebook, JupyterLab, or VS Code with the Jupyter extension.
 3. Install the libraries used by the notebook if needed:
 
    ```bash
@@ -64,7 +65,7 @@ These are qualitative findings recorded in the project notes; no exact metric va
 
 ## Data File Notes
 
-The repository originally contained `Sample - Superstore(1).csv` and a separate `Sample-superstore.csv` file that is only 1 byte, so it does not appear to be a usable dataset. The full dataset has been placed at `data/Sample-Superstore.csv`; use this file as the intended data source.
+The repository originally contained `Sample - Superstore(1).csv` and a separate `Sample-superstore.csv` file that was only 1 byte and not a usable dataset. The full dataset is organized at `data/Sample-Superstore.csv`; use this file as the intended data source.
 
 ## Skills Demonstrated
 

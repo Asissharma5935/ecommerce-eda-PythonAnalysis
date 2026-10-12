@@ -1,145 +1,78 @@
-# ecommerce-eda-PythonAnalysis
+# E-commerce Sales & Profitability Analysis
 
-![Python](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Jupyter](https://img.shields.io/badge/Tool-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white) ![Pandas](https://img.shields.io/badge/Library-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-__A data analysis project on e-commerce sales using Python and Jupyter Notebook. Includes exploratory data analysis (EDA), sales and profit insights, customer segmentation, and visualizations for data-driven decision-making.__
-Steps Followed in the Analysis
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 
-# **Project Overview**
+An exploratory data analysis project using Python and Jupyter Notebook to examine e-commerce sales, profit, product categories, sub-categories, and customer segments using the Sample Superstore dataset.
 
-##### This project focuses on analyzing sales and profitability patterns in an E-commerce dataset to generate actionable business insights. Using Python and Jupyter Notebook, the analysis covers sales performance across months, categories, sub-categories, and customer segments.
+## Project at a Glance
 
-##### The purpose of this project is to help businesses understand:
+- **Goal:** Understand what drives sales and profitability, and where high sales do not translate into strong profit.
+- **Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn, Plotly, Jupyter Notebook.
+- **Primary analysis:** monthly sales/profit trends, category and sub-category performance, customer-segment comparisons, and sales-to-profit relationships.
 
-##### Which time periods contribute most to revenue.
+## Repository Structure
 
-##### Which product categories and sub-categories drive sales and profitability.
+```text
+.
+├── Ecommerce.ipynb
+├── data/
+│   └── Sample-Superstore.csv
+└── README.md
+```
 
-##### How customer segments differ in terms of sales contribution and profit margins.
+## Business Questions
 
-##### Whether high sales always translate into higher profits, or if certain areas are loss-making despite strong revenue.
+1. Which months have the highest and lowest sales?
+2. Which product categories and sub-categories contribute most and least to sales?
+3. How does profit change over time?
+4. Which categories and sub-categories are most and least profitable?
+5. How do Consumer, Corporate, and Home Office segments compare in sales and profit?
+6. Does higher sales volume always lead to higher profit?
 
-##### By combining data cleaning, visualization, and exploratory analysis, the project provides a clear view of both strengths and challenges in the store’s performance, enabling data-driven decision-making.
+## Workflow
 
+1. **Load and inspect:** import the CSV into Pandas and inspect data types, missing values, and duplicates.
+2. **Clean and transform:** parse Order Date and derive month-level fields for time-series analysis.
+3. **Aggregate:** summarize sales and profit by month, category, sub-category, and customer segment.
+4. **Visualize:** use Matplotlib, Seaborn, and Plotly charts to compare trends and performance.
+5. **Interpret:** distinguish revenue drivers from profit drivers and investigate loss-making areas.
 
-# Business Questions / Objectives(KPIs)
+## Key Findings Reported in the Notebook/Original Project Notes
 
-The project is designed to answer the following business questions:
+The original project notes report the following patterns. Re-run the notebook against the included dataset to validate the exact figures and confirm whether the current notebook reproduces them.
 
-Calculate the monthly sales of the store and identify which month had the highest sales and which month had the lowest sales.
+- Technology is described as a strong profit contributor.
+- Furniture is described as having weaker profitability, with Tables highlighted as a loss-making sub-category.
+- Copiers are described as a highly profitable sub-category.
+- The Consumer segment is described as contributing the largest sales, while Corporate and Home Office are noted for profit contribution efficiency.
+- The project emphasizes that high sales do not necessarily guarantee high profit.
 
-Analyze sales based on product categories and determine which category has the lowest sales and which category has the highest sales.
+These are qualitative findings recorded in the project notes; no exact metric values are claimed in this README.
 
-Perform sales analysis based on sub-categories to identify top and bottom performers.
+## How to Run
 
-Analyze the monthly profit from sales and determine which month had the highest profit.
+1. Clone or download this repository.
+2. Open `Ecommerce.ipynb` in Jupyter Notebook, JupyterLab, or VS Code with the Jupyter extension.
+3. Install the libraries used by the notebook if needed:
 
-Analyze the profit by category and sub-category to identify the most and least profitable areas.
+   ```bash
+   pip install pandas numpy matplotlib seaborn plotly jupyter
+   ```
 
-Analyze the sales and profit by customer segment (Consumer, Corporate, Home Office).
+4. Load the dataset from `data/Sample-Superstore.csv`. If the notebook currently uses a different file path, update that cell to match the folder structure.
+5. Run the notebook cells from top to bottom and review the output charts and tables.
 
-Calculate and analyze the sales-to-profit ratio to check if higher sales always mean higher profits.
+## Data File Notes
 
+The repository originally contained `Sample - Superstore(1).csv` and a separate `Sample-superstore.csv` file that is only 1 byte, so it does not appear to be a usable dataset. The full dataset has been placed at `data/Sample-Superstore.csv`; use this file as the intended data source.
 
-# **Detailed Steps Followed**
-1. Data Import & Setup
+## Skills Demonstrated
 
-Imported essential Python libraries: pandas, numpy, matplotlib, seaborn, and plotly.
+Python fundamentals, data cleaning, Pandas data manipulation, NumPy, EDA, grouping and aggregation, date/time analysis, charting, and communicating business insights.
 
-Loaded dataset (Sample - Superstore.csv) into Pandas DataFrame.
+## Author
 
-Checked for missing values, duplicates, and data types.
+**Asish Kumar Sharma**
 
-2. Data Cleaning & Transformation
-
-Converted Order Date into datetime format.
-
-Extracted Order Month for trend analysis.
-
-Created summarized dataframes (e.g., sales by category, sales by month).
-
-3. Exploratory Data Analysis (EDA)
-
-a. Monthly Sales Analysis
-
-Created line plots of monthly sales.
-
-Observed seasonal demand patterns.
-
-b. Sales by Category & Sub-Category
-
-Used pie charts and bar plots to visualize contribution.
-
-Found Technology & Office Supplies as strong performers, while Furniture lagged.
-
-c. Profitability Analysis
-
-Monthly profit trends visualized with bar charts.
-
-Profit by Category → Technology most profitable, Furniture least profitable.
-
-Profit by Sub-Category → Identified Copiers as highly profitable and Tables as loss-making.
-
-d. Customer Segment Analysis
-
-Compared sales vs profit by Consumer, Corporate, Home Office.
-
-Found that Consumers drive sales, while Corporate/Home Office deliver better profitability.
-
-e. Sales-to-Profit Ratio
-
-Highlighted that high sales don’t guarantee high profit.
-
-Identified categories/sub-categories with mismatched sales vs profit.
-
-4. Visualization
-
-Used Plotly Express for interactive charts: line plots, bar charts, pie charts.
-
-Enhanced analysis with percentage and ratio visuals.
-
-
-# **Key Findings & Insights**
-
-Monthly Trends
-
-Seasonal demand is visible; some months consistently outperform others.
-
-Category Insights
-
-Office Supplies → Highest sales volume.
-
-Technology → Strong profits.
-
-Furniture → Lower profitability, with Tables showing negative margins.
-
-Sub-Category Insights
-
-Phones, Chairs, and Binders → Drive most sales.
-
-Copiers → Extremely profitable.
-
-Tables → Major loss contributor.
-
-Customer Segment Insights
-
-Consumers contribute most sales.
-
-Corporate & Home Office segments are more efficient in profit contribution.
-
-Sales vs Profit
-
-High sales ≠ high profit. Some products sell in high volume but weaken margins.
-
-✅ Conclusion: Businesses should focus on high-margin products (Technology, Copiers) while addressing loss-making categories (Furniture – especially Tables). Balancing sales volume with profitability can improve overall business health.
-
-# **📊 Tools & Libraries Used**
-
-Python
-
-Jupyter Notebook
-
-Pandas & NumPy – Data cleaning and analysis
-
-Matplotlib & Seaborn – Static visualization
-
-Plotly – Interactive visualization
+- [GitHub Profile](https://github.com/Asissharma5935)
+- [LinkedIn](https://www.linkedin.com/in/asish-kumar-sharma-9b4a1731b)
